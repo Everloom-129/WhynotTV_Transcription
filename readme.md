@@ -6,7 +6,11 @@
 
 A for-fun fork of [a2nath/Video-Transcribe](https://github.com/a2nath/Video-Transcribe), tailored for WhynotTV, a Chinese-primary tech podcasts where the speakers casually drop into English for technical terms.
 
+<img src="asset/whynottv_logo.png" alt="whynottv" width="240"/>
+
 **Example episode**: [WhynotTV Podcast #5 · Danfei Xu](https://www.bilibili.com/) (2h 17min)
+
+<img src="asset/05_danfei.png" alt="danfei" width="420"/>
 
 Can be extracted as: 
 ```bash
@@ -78,7 +82,7 @@ python -m src.cli \
   --chapters chapters/danfei.txt
 ```
 
-Expect ~15-30 min on a 4090 for a 2hr episode at `large-v3`. CPU works but is several hours.
+Expect ~15-30 min on a 4090 for a 2hr episode.
 
 ---
 
@@ -149,7 +153,7 @@ python -m src.cli \
 
 ### `chapters/<episode>.txt`
 
-One chapter per line, `MM:SS Title` or `HH:MM:SS Title`. Paste straight from the bilibili description.
+One chapter per line, `MM:SS Title` or `HH:MM:SS Title`. Paste straight from the video description.
 
 ```
 02:00 Danfei 为什么一直把自己定义为 roboticist
@@ -210,7 +214,7 @@ Markdown output structure:
 ...
 ```
 
-Faithful-to-spoken-language by design: disfluency (嗯/啊/那个) and English code-switching are preserved, not cleaned up. See [`DESIGN.md`](./DESIGN.md) §6.8.
+Faithful-to-spoken-language by design: disfluency (嗯/啊/那个) and English code-switching are preserved, not cleaned up. See [`DESIGN.md`](./design.md) §6.8.
 
 ---
 
@@ -236,7 +240,7 @@ v1 (current) is intentionally minimal. Each phase is an additive module that doe
 
 - **Phase 2** — speaker diarization via pyannote (`Danfei:` / `Tairan:` labels)
 - **Phase 3** — English translation (chapter-by-chapter via LLM)
-- **Phase 4** — "readable" rewrite (de-disfluency, sentence merging) — separate output, never modifies the faithful v1 transcript
+- **Phase 4** — "readable" rewrite (de-disfluency, sentence merging) ·  separate output, never modifies the faithful v1 transcript
 - **Phase 5** — multi-episode YAML config
 
 See [`DESIGN.md`](./DESIGN.md) §12.
@@ -245,9 +249,9 @@ See [`DESIGN.md`](./DESIGN.md) §12.
 
 ## Credits
 
-- Built on top of [a2nath/Video-Transcribe](https://github.com/a2nath/Video-Transcribe) — the yt-dlp + faster-whisper scaffold and CLI shape are theirs.
-- Whisper by OpenAI · faster-whisper by SYSTRAN · pyannote by CNRS
-- Pilot content: [WhynotTV Podcast](https://www.bilibili.com/) — used with permission of the host.
+- Built on top of [a2nath/Video-Transcribe](https://github.com/a2nath/Video-Transcribe) ·  the yt-dlp + faster-whisper scaffold and CLI shape are theirs.
+- [Whisper by OpenAI](https://openai.com/index/whisper/) · faster-whisper by SYSTRAN · pyannote by CNRS
+- Pilot content: [WhynotTV Podcast](https://www.bilibili.com/) ·  used with permission of the host.
 
 ## License
 
