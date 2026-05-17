@@ -1,10 +1,29 @@
-# podcast-zh-transcribe
+# WhynotTV Podcast Transcription
+
+[Jie Wang](https://everloom-129.github.io/)
 
 > Faithful long-form transcription of Chinese podcasts (with English code-switching), built for 2hr+ bilibili episodes.
 
 A for-fun fork of [a2nath/Video-Transcribe](https://github.com/a2nath/Video-Transcribe), specialized for Chinese-primary podcasts where the speakers casually drop into English for technical terms — the kind of conversation where "behavior cloning" and "transformer" should stay English, but "嗯那个我觉得" should stay Chinese.
 
-**Pilot episode**: [WhynotTV Podcast #5 · Danfei Xu](https://www.bilibili.com/) (2h 17min)
+**Example episode**: [WhynotTV Podcast #5 · Danfei Xu](https://www.bilibili.com/) (2h 17min)
+
+Can be extracted as: 
+```bash
+data/
+├── audio
+│   ├── danfei.wav
+│   ├── danfei.webm
+│   └── readme.md
+├── raw
+│   ├── danfei.json
+│   └── danfei.srt
+├── run.log
+└── transcripts
+    └── danfei.md
+
+3 directories, 7 files
+```
 
 ---
 
