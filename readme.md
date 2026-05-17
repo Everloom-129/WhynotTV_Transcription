@@ -8,9 +8,9 @@ A for-fun fork of [a2nath/Video-Transcribe](https://github.com/a2nath/Video-Tran
 
 <img src="asset/whynottv_logo.png" alt="whynottv" width="240"/>
 
-**Example episode**: [WhynotTV Podcast #5 · Danfei Xu](https://www.bilibili.com/) (2h 17min)
+**Example episode**: [WhynotTV Podcast #5 · Danfei Xu](https://www.youtube.com/watch?v=__P5yygfRRQ) (2h 17min)
 
-<img src="asset/05_danfei.png" alt="danfei" width="420"/>
+<img src="https://img.youtube.com/vi/__P5yygfRRQ/maxresdefault.jpg" alt="danfei" width="420"/>
 
 Can be extracted as: 
 ```bash
@@ -28,6 +28,17 @@ data/
 
 3 directories, 7 files
 ```
+
+### TODO: 
+- [ ] Add web-based app to edit the trasncription error 
+- [ ] Add Claude-based auto translator
+- [ ] Add auto summary + blog draft
+
+
+### Next 
+- [ ] [WhynotTV Podcast #4 · 翁家翌 (Jiayi Weng):]https://www.bilibili.com/video/BV1darmBcE4A) (2h 17min)
+
+<img src="https://img.youtube.com/vi/I0DrcsDf3Os/maxresdefault.jpg" alt="jiayi" width="420"/>
 
 ---
 
