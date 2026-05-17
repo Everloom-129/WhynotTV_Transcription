@@ -1,0 +1,68 @@
+00:00:00 <Untitled Chapter 1>
+00:02:31 Danfei Xu 最早如何对机器人产生兴趣
+00:03:27 小时候的 Danfei Xu 是什么样的小孩
+00:05:34 为什么高中时决定去美国读本科
+00:06:38 一个人 DIY 申请美本的经历
+00:08:44 美本申请受挫与选择 Dickinson College
+00:11:40 18岁前的经历如何塑造了对不确定性的适应力
+00:13:40 本科如何“打电话”进入 SynTouch 做机器人研究
+00:18:36 为什么比起纯算法更喜欢“让东西动起来”
+00:19:19 CMU 暑研与开车敲教授办公室的故事
+00:21:02 无人车 localization 与早期 full-stack robotics 经验
+00:24:00 为什么 PhD 选择了当时“机器人荒漠”的 Stanford
+00:26:34 2015 年 Stanford CS 与 deep learning 的氛围
+00:27:13 PhD rotation、VR 头显与早期人类动作采集
+00:28:34 为什么拒绝继续做 scene graph，转回 robotics
+00:30:18 2016/2017 年 robot learning 的两条主流路线
+00:32:06 从 one-shot imitation learning 到 task and motion planning
+00:33:15 现在如何看待 structure、compositionality 与 bitter lesson的反思
+00:35:51 为什么从 task-motion planning 转向 teleoperation 和 behavior cloning
+00:36:12 DeepMind 暑研如何让他相信 behavior cloning 会 work
+00:38:57 什么是机器人的 behavior cloning
+00:39:47 为什么当年整个领域看不上 behavior cloning
+00:42:27 RSS 2020 论文：Franka 遥操、BC 系统和 sign of life
+00:44:31 学术界如何鼓励真正 work 的系统性研究
+00:46:14 为什么不相信当年的 RL 能 scale 到真实机器人
+00:47:08 这篇 BC 工作为什么当时没有引发范式转变
+00:49:45 Behavior cloning 最难的为什么是系统而不是模型
+00:52:53 PhD 期间几段 internship 带来的关键认知
+00:54:33 机器人未来会不会像自动驾驶一样被拆成 pipeline
+00:54:59 PhD 回看：哪些判断是对的，哪些路线后来放弃了
+00:57:17 为什么选择教职：自由、资源与独立研究品味
+00:59:24 什么是 robot learning，它和传统 robotics 的区别
+01:01:24 Robot learning 里最被高估和低估的是什么
+01:01:53 机器人数据、人类数据与 human data 的基本分类
+01:03:52 EgoMimic 的前世今生：为什么押注第一人称人类数据
+01:09:39 为什么从遥操数据转向 human data
+01:11:40 从 ego video 中到底能学到什么
+01:15:20 为什么第一人称视频比 YouTube 第三人称视频更关键
+01:20:17 SLAM / VIO 为什么是把人当机器人用的关键
+01:24:07 今天 SLAM 的护城河在哪里
+01:27:02 触觉和 force 在 human data 中到底有多重要
+01:30:16 Human data 各模态的重要性排序
+01:32:27 UMI data 到底算机器人数据还是人类数据
+01:34:40 Teleop、UMI 与纯 human data 的长期关系
+01:36:35 五指灵巧手与硬件本体为什么决定 transfer 上限
+01:38:21 Human data 与人形机器人是谁成就谁
+01:39:46 Human data 会不会把机器人锁死在人类构型和水平
+01:42:51 数据、算力、硬件无限时，human data 的智能上限
+01:44:16 机器人版“互联网数据基础设施”如何出现
+01:47:22 训练 human-level robot 需要多少数据
+01:49:08 为什么不经意的日常人类数据最有价值
+01:53:37 Human data pipeline 会成为护城河还是 commodity
+01:55:03 EgoVerse 与学术界开放 human data 的意义
+01:56:31 Human data 的成功是否注定走向商业化封闭
+01:58:31 如果 human data 没成为基石，可能是哪层假设错了
+01:59:39 为什么 full-stack robotics 是核心能力
+02:00:47 Buy or build：机器人团队哪些能力必须 in-house
+02:02:34 Human data 会偏好什么样的 modeling method
+02:03:26 机器人模型的 System 1 / System 2 interface 会是什么
+02:04:33 今天机器人距离乌鸦 Betty 的工具智能还有多远
+02:06:00 作为 Georgia Tech 教授的 advising style
+02:08:26 Danfei Lab 的文化：为什么所有人都要 full stack
+02:10:07 年轻 researcher 如何在学术界和工业界找到位置
+02:11:10 2026 年读 robotics PhD 比十年前更难还是更容易
+02:12:30 如何判断一个方向只是热门还是真的重要
+02:13:47 个人 goal：推动 robotics 的 GPT-3 moment
+02:14:26 给十年前刚入行自己的建议
+02:15:52 给未来的时间胶囊：勇敢做自己想做的事

@@ -1,0 +1,9 @@
+data/
+*.wav
+*.m4a
+*.mp3
+cookies*.txt
+__pycache__/
+*.pyc
+.venv/
+.env

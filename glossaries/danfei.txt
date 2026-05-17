@@ -1,0 +1,29 @@
+# Glossary for WhynotTV Podcast #5 — Danfei Xu.
+# One term per line. Used as faster-whisper `initial_prompt`.
+# Keep tight: prompt is truncated to ~244 tokens.
+Danfei Xu
+Tairan He
+Stanford
+DeepMind
+Georgia Tech
+behavior cloning
+robot learning
+robotics foundation model
+EgoMimic
+UMI
+RoboTurk
+teleoperation
+SLAM
+VIO
+tactile
+dexterous hand
+humanoid
+GPT-3
+LLM
+RSS 2020
+ego video
+first-person video
+Betty the Crow
+human data
+roboticist
+WhynotTV
