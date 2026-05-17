@@ -4,7 +4,7 @@
 
 > Faithful long-form transcription of Chinese podcasts (with English code-switching), built for 2hr+ bilibili episodes.
 
-A for-fun fork of [a2nath/Video-Transcribe](https://github.com/a2nath/Video-Transcribe), specialized for Chinese-primary podcasts where the speakers casually drop into English for technical terms — the kind of conversation where "behavior cloning" and "transformer" should stay English, but "嗯那个我觉得" should stay Chinese.
+A for-fun fork of [a2nath/Video-Transcribe](https://github.com/a2nath/Video-Transcribe), tailored for WhynotTV, a Chinese-primary tech podcasts where the speakers casually drop into English for technical terms.
 
 **Example episode**: [WhynotTV Podcast #5 · Danfei Xu](https://www.bilibili.com/) (2h 17min)
 
